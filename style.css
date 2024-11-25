@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #f0e6d2 0%, #fffbea 100%);
+    color: #444;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #d4af37, #f8d568);
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    color: #fff8dc;
+}
+
+header p {
+    font-size: 18px;
+    color: #fff8dc;
+}
+
+/* Gallery */
+.earring-gallery {
+    margin: 20px;
+    padding: 10px;
+}
+
+.earring-gallery h2 {
+    font-size: 28px;
+    color: #d4af37;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.earring-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background: linear-gradient(145deg, #fffde7, #f7f1d3);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #d4af37;
+}
+
+.earring-item img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+
+.earring-item h3 {
+    font-size: 18px;
+    color: #8b6a2a;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.earring-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(90deg, #d4af37, #f8d568);
+    color: #fff8dc;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
